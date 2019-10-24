@@ -1,14 +1,19 @@
 \documentclass{beamer}
 % \usepackage[brazil]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{MnSymbol,wasysym}
+
 \usepackage{fancybox}
-\title[\color{white}The Art of Presenting Science]{The Art of Presenting Science}
+\title[\color{white}The Art of Presenting Science]{\Huge The Art of Presenting Science}
 %\subtitle[short version]{}
 \date[\color{white}October 24, 2019]{October 24, 2019}
 \author[\color{white}Sivaram Ambikasaran]{Sivaram Ambikasaran}
-\institute[\color{white}IITM]{IITM}
+% \institute[\color{white}IITM]{IITM}
 \usetheme{Madrid}
-
+\newcommand{\BS}[1]{\Huge{Bullshit rule: #1}\\}
+\newcommand{\RR}[1]{\color{white}\Huge{Reality rule: #1}\\}
+\newcommand{\BBS}{Bullshit Rules}
+\newcommand{\RRS}{\color{white}Reality Rules}
 
  
 \usecolortheme{owl}
@@ -19,105 +24,293 @@
 \begin{document}
 \frame{\titlepage}
 
-
-\begin{frame}{Teaching Philosophy}
-	\includegraphics[width=\textwidth]{./images/Comic_Teaching.png}
-\end{frame}
-
-\begin{frame}[c]{Teaching Philosophy}
+\begin{frame}{\color{white}Greatest communicators}
 	\begin{center}
-	\Huge{Teacher, Professor?}\\
-	\pause
-	\vspace{2em}
-	\Huge{I am an {\color{cyan}educational} {\color{magenta}rockstar}}
+		\color{white}\Huge{Who?}
 	\end{center}
 \end{frame}
 
-\begin{frame}[c]{Teaching Philosophy}
-	\LARGE
+\begin{frame}{\BBS}
 	\begin{center}
-		``Intellectually entertain students and make them learn"\\
-	\vspace{1em}
-	``Don’t try to teach, try to make the students learn”\\
-	\vspace{1em}
-	``Try to figure things out along with the students"
+		\BS{1}
+		\Huge{Work will speak for itself}
 	\end{center}
 \end{frame}
 
-\begin{frame}[c]{Teaching Philosophy}
-	\LARGE
-	\begin{itemize}
-		\item
-		Spend the first lecture on motivation
-		\item
-		Why, What and How?
-		\item
-		Numerical Linear Algebra
-		\begin{itemize}
-			\item
-			The \$25,000,000,000 Eigenvector: Linear algebra behind google
-			\item
-			The Smart Money’s on Numerical Analysts
-		\end{itemize}
-	\end{itemize}
+\begin{frame}
+	\includegraphics[width=\textwidth]{./Mochizuki.png}
 \end{frame}
 
-\begin{frame}[c]{Teaching Philosophy}
-	\LARGE
-	Adopt latest technologies in teaching
+\begin{frame}{\RRS}
 	\begin{center}
-	\includegraphics[width=0.2\textwidth]{./images/Github.png} \hspace{1em}
-	\includegraphics[width=0.45\textwidth]{./images/Jupyter.png}\\
-	\vspace{1em}
-	\includegraphics[width=0.45\textwidth]{./images/AutoGradr.png} \hspace{1em}
-	\includegraphics[width=0.45\textwidth]{./images/JPlag.png}
+		\RR{1}
+		\Huge{Your work: your product}\\
+		\Huge{Talk: advertisement of your work}\\
+		\LARGE{Good product with bad adverstisement \frownie{}}\\
+		\LARGE{Bad product with good adverstisement \frownie{}}\\
 	\end{center}
 \end{frame}
 
-\begin{frame}{Finite Precision Computation}
-	\LARGE
-	Solving recurrence
-	$$a_{n+1} = 10a_n - 9a_{n-1}$$
-	with $a_0 = a_1 = 2.95$
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{2}
+		\Huge{Every slide must be packed from top left to bottom right with text}
+	\end{center}
 \end{frame}
 
-\begin{frame}{Polynomial Approximation}
-	\LARGE
-	Interpolate/Approximate
-	$$f(x) = \dfrac1{1+25x^2}$$
-	Weierstrass approximation theorem
+\begin{frame}
+	\includegraphics[width=\textwidth]{./garbage.png}
 \end{frame}
 
-\begin{frame}{MonteCarlo to compute $\pi$}
-	\includegraphics[width=\textwidth]{./images/pi_1.png}
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{2}
+		\Huge{Minimal text; Each slide should showcase only one thing}\\
+		\Huge{\textbf{\emph{YOU}} need to talk about the content}
+	\end{center}
 \end{frame}
 
-\begin{frame}{MonteCarlo to compute $\pi$}
-	\includegraphics[width=\textwidth]{./images/pi_2.png}
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{3}
+		\Huge{Will convince my audience,\\I have done LOTS of work}
+	\end{center}
 \end{frame}
 
-\begin{frame}{Summary of teaching philosophy}
-	\large
-	To heighten the understanding of concepts
-	\begin{itemize}
-		\item
-		Proofs and more importantly examples/counterexamples
-		\item
-		Application of the theorems/results
-		\item
-		Live computational and mathematical demonstrations
-		\begin{itemize}
-			\item
-			Students appreciate that math and programming can go hand in hand
-			\item
-			Both are simple and fun to play around
-		\end{itemize}
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{3}
+		\Huge{Quantity of work doesn't matter}\\
+		\Huge{\textbf{Quality} does}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{4}
+		\Huge{Pictures and Figures are pointless}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{4}
+		\Huge{\textbf{Picture is worth a thousand words}}\\
+		\Huge{\emph{Even in mathematical communication}}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{5}
+		\Huge{Present every single step in proof so that people will know I have done it correctly}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{5}
+		\Huge{Writing an article is different from presenting your work}\\
 		\pause
-		\item
-		Will think along with students for the logic to be followed
-		\item
-		Enable them to think on the fly and adapt; contributes to their understanding
-	\end{itemize}
-	These enable students to understand the details as well as to obtain a bird's eye view of the entire landscape.
+		\Huge{Encapsulate the ideas of the theorems and proofs}\\
+		\pause
+		\Huge{True understanding}
+	\end{center}
 \end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{6}
+		\Huge{Don't talk about failures or incorrect attempts}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{6}
+		\Huge{The path you took is more important than result}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{7}
+		\Huge{Be serious;\\No jokes, no deviations;\\Only content}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{7}
+		\Huge{Your audience are not ROBOTS}
+	\end{center}
+\end{frame}
+%
+% \begin{frame}{\BBS}
+% 	\begin{center}
+% 		\BS{8}
+% 		\Huge{Voice, body language, excitement, should not be given attention to.}
+% 	\end{center}
+% \end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{8}
+		\Huge{Same content works for all audience}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{8}
+		\Huge{Audience are our customers}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{9}
+		\Huge{No need to motivate the talk}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{9}
+		\Huge{Spend almost a quarter of the talk on motivation}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{10}
+		\Huge{More slides $\implies$ More work}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{10}
+		\Huge{If I Had More Time, I Would Have Written a Shorter Letter.}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{11}
+		\Huge{Talk fast $\implies$ More words $\implies$ More work}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{11}
+		\Huge{Talk short sentences at the right pace.}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\BBS}
+	\begin{center}
+		\BS{12}
+		\Huge{Presentations should be monologue.}
+	\end{center}
+\end{frame}
+
+
+\begin{frame}{\RRS}
+	\begin{center}
+		\RR{12}
+		\Huge{Engage your audience.}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}\Huge{Have a catchy title}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}\Huge{Do not have an outline slide}\\
+		\color{white}\Huge{It is boring; Suspense is lost}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}\Huge{Start with a question or an interesting fact}\\
+		\pause
+		\Huge{Use that as a motivation}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}
+		\Huge{Tell a story}\\
+		\Huge{Build up the suspense}
+	\end{center}
+\end{frame}
+
+
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}
+		\Huge{Do not memorize your talk!}\\
+		\pause
+		\Huge{Try to adapt on the fly!}\\
+		\pause
+		\Huge{Extempore!}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}
+		\Huge{You are the hero(ine)!}\\
+		\pause
+		\Huge{Don't become a villain!}
+	\end{center}
+\end{frame}
+
+\begin{frame}{\color{white}Other points to remember}
+	\begin{center}
+		\color{white}
+		\Huge{Show current slide/total slides}\\
+		\pause
+		\Huge{Have a good climax}\\
+		\pause
+		\Huge{Finish on time with a bang!}\\
+	\end{center}
+\end{frame}
+% 	\begin{itemize}
+% 		\item
+% 		Work will speak for itself
+% 		\item
+% 		Long boring talks
+% 		\item
+% 		Catchy title
+% 		\item
+% 		Start with catchy facts
+% 		\item
+% 		Talking to human beings and not machines
+% 		\item
+% 		Have a story to tell
+% 		\item
+% 		Think of your talk as a movie; How to keep your audience engaged;
+% 		Romantic movie, Horror, Thriller
+% 		\item
+% 		Think of yourself as Shahrukh or Rajni or Amitabh
+% 		\item
+% 		Pictures
+% 		\item
+% 		In any communication content plays a small role compared to voice and body language
+% 	\end{itemize}
+% \end{frame}
+%
+% \begin{frame}
+% 	Despite multiple conferences dedicated to explicating Mochizuki’s proof, number theorists have struggled to come to grips with its underlying ideas. His series of papers, which total more than 500 pages, are written in an impenetrable style, and refer back to a further 500 pages or so of previous work by Mochizuki, creating what one mathematician, Brian Conrad of Stanford University, has called “a sense of infinite regress.”
+% \end{frame}
 \end{document}
